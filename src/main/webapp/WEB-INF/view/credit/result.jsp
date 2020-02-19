@@ -4,7 +4,7 @@
     <title>We Stole your card info</title>
 </head>
 <body>
-<h1>${name}</h1>
+<h1>Hey ${name}</h1>
 <ul>
     <li>${creditCardNumber}</li>
     <li>${date}</li>

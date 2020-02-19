@@ -8,7 +8,7 @@
 <c:url value="/card" var="actionURL"/>
 <form method="get" action="${actionURL}">
     <label>Credit Card Number<br>
-    <input type="text" name="creditCardNumber" placeholder="1111222233334444"/>
+    <input type="text" name="creditCardNumber" placeholder="1111222233334444" maxlength="16"/>
     </label>
     <br>
     <label>Card Holder Name<br>
@@ -16,11 +16,11 @@
     </label>
     <br>
     <label>Expiration Date<br>
-    <input type="text" name="date" placeholder="10/04/12"/>
+    <input type="date" name="date" placeholder="10/04/12"/>
     </label>
     <br>
     <label>Security Code<br>
-    <input type="text" name="secCode" placeholder="852"/>
+    <input type="text" name="secCode" placeholder="852" maxlength="3"/>
     </label>
     <br>
     <input type="submit"/>
