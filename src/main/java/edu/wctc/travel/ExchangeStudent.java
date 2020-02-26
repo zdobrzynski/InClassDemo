@@ -6,6 +6,8 @@ public class ExchangeStudent {
     private String hostCountry;
     private int grade;
     private String semester;
+    private TravelMethod travelMethod;
+    private String[] spokenLanguages;
 
     public ExchangeStudent() {
     }
@@ -40,5 +42,21 @@ public class ExchangeStudent {
 
     public void setSemester(String semester) {
         this.semester = semester;
+    }
+
+    public TravelMethod getTravelMethod() {
+        return travelMethod;
+    }
+
+    public void setTravelMethod(TravelMethod travelMethod) {
+        this.travelMethod = travelMethod;
+    }
+
+    public String[] getSpokenLanguages() {
+        return spokenLanguages;
+    }
+
+    public void setSpokenLanguages(String[] spokenLanguages) {
+        this.spokenLanguages = spokenLanguages;
     }
 }

@@ -16,4 +16,7 @@
     </bean>
 
     <mvc:resources mapping="/resources/**" location="/WEB-INF/resources/"/>
+
+    <util:properties id="gradeLevelProp" location="classpath:gradeLevel.properties"/>
+
 </beans>
